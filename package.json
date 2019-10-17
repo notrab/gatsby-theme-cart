@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "workspaces": [
+    "demo",
+    "gatsby-theme-cart"
+  ],
+  "scripts": {
+    "build": "yarn workspace demo build",
+    "dev": "yarn workspace demo dev"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "packages/gatsby-theme-shopfinder"
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  }
+}
