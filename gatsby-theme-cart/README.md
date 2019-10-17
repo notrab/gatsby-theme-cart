@@ -1,10 +1,6 @@
 # gatsby-theme-cart
 
-🛒 A drop-in shopping cart theme for Gatsby
-
-## Why?
-
-- Shopping cart theme built for Gatsby 🛍
+- Shopping cart theme built for Gatsby 🛒
 - Minimal configuration! 🛠
 - Built on [Gatsby](https://www.gatsbyjs.org/docs/themes) 🚀
 - Made by [Jamie Barton](https://twitter.com/notrab) 👋
