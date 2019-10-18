@@ -20,5 +20,23 @@
       ],
       "@semantic-release/github"
     ]
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "npx prettier --write",
+      "git add"
+    ],
+    "package.json": [
+      "npx sort-package-json",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
   }
 }
