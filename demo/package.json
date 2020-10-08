@@ -9,17 +9,17 @@
     "predev": "yarn clean"
   },
   "dependencies": {
-    "gatsby": "2.24.27",
-    "gatsby-plugin-postcss": "2.3.11",
+    "gatsby": "2.24.72",
+    "gatsby-plugin-postcss": "3.0.1",
     "gatsby-plugin-purgecss": "5.0.0",
-    "gatsby-source-filesystem": "2.3.23",
+    "gatsby-source-filesystem": "2.3.34",
     "gatsby-theme-cart": "*",
-    "gatsby-transformer-yaml": "2.4.10",
+    "gatsby-transformer-yaml": "2.4.14",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
     "postcss-preset-env": "6.7.0",
-    "tailwindcss": "1.6.2"
+    "tailwindcss": "1.8.12"
   }
 }
